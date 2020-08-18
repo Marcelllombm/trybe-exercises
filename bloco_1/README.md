@@ -2,14 +2,47 @@
 
 === Parte I - Criação de arquivos e diretórios ===
 
+----------------------------------------------------
+
 1° Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado unix_tests e navegue até ele.
-
-O comando "mkdir" (make directory) serve para a criação de diretórios. Um diretório é um local que serve de armazenamento para outros diretórios ou arquivos
-
-Na linha de comando do sistema operacional Unix, o "ls" (derivado das primeiras consoantes da palavra inglesa list) é um comando usado para listar arquivos e diretórios.
 
 -----------------------------------------------------
 
 2° Crie um arquivo de texto com o nome trybe.txt.
 
-O Comando "Touch" do Linux é usado principalmente para criar arquivos vazios, além de alterar o registro de data e hora (timestamp) de arquivos ou pastas. 
+-----------------------------------------------------
+
+3° Crie uma cópia do arquivo trybe.txt com nome trybe_backup.txt.
+
+-----------------------------------------------------
+
+4º Renomeie o arquivo trybe.txt.
+
+-----------------------------------------------------
+
+5º Dentro de unix_tests, crie um novo diretório chamado backup.
+
+-----------------------------------------------------
+
+6º Dentro de unix_tests, crie um novo diretório chamado backup.
+
+-----------------------------------------------------
+
+7º Dentro de unix_tests, crie um novo diretório chamado backup2.
+
+-----------------------------------------------------
+
+8º Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
+
+-----------------------------------------------------
+
+
+* O comando "mkdir" (make directory) serve para a criação de diretórios. Um diretório é um local que serve de armazenamento para outros diretórios ou arquivos
+
+* Na linha de comando do sistema operacional Unix, o "ls" (derivado das primeiras consoantes da palavra inglesa list) é um comando usado para listar arquivos e diretórios.
+
+* O Comando "Touch" do Linux é usado principalmente para criar arquivos vazios, além de alterar o registro de data e hora (timestamp) de arquivos ou pastas. 
+
+* O comando "cp" é usado para copiar diretórios ou arquivos.
+
+* O comando "mv" tem a função de mover ou renomear arquivos. A utilização dele é praticamente igual a do comando cp.
