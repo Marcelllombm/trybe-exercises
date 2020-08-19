@@ -384,4 +384,5 @@ exemplo tail -n 4 skills.txt
   
   * "echo" --- Em Informática, echo é um comando disponível no Unix que apresenta um texto na tela de um terminal de computador. É um comando utilizado em scripts para exibir mensagens na tela ou em um arquivo.
   
+  * "sort" --- O comando sort do sistema operacional Unix possui a função de ordenar uma sequência de linhas de maneira crescente ou decrescente de maneira numérica ou alfabética
 
