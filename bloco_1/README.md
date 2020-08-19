@@ -87,3 +87,7 @@ SQL
 * O comando "cp" é usado para copiar diretórios ou arquivos.
 
 * O comando "mv" tem a função de mover ou renomear arquivos. A utilização dele é praticamente igual a do comando cp.
+
+* "rmdir" Este comando removerá o diretório dolor. Caso o diretório especificado não esteja vazio, ele não será removido. ...
+
+* O comando "cat" do Linux é um dos mais úteis para se aprender. Seu nome é uma derivação da palavra concatenate (concatenar) e permite que você crie, una e exiba arquivos no formato padrão de tela ou em outro arquivo, entre outras coisas.
