@@ -204,4 +204,7 @@ exemplo tail -n 4 skills.txt
   grep -i brazil countries.txt //o lentra i transforma todo em maiusculo
   grep -v fox pharases.txt // a letra -v busca pelas frase que não contenham a palavra fox
   
+  * "wc -l" ---Existem comandos dentro do Unix/Linux que desconhecemos, porque são muito pouco usados mesmo. O comando " wc arquivo " fornece o número de linhas, palavras e bytes contidos no arquivo.
+ 
+  
 
