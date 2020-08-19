@@ -190,3 +190,14 @@ exemplo tail -n 4 skills.txt
 
 * "more" --- O comando more permite fazer a paginação de arquivos. O mesmo também permite a leitura de arquivos longos. Também pode usar o | (pipe) para redirecionar a saída de um comando para o more. Enter ou espaço para correr a página e q para sair.
 
+
+  less countries.txt
+  # ou...
+  more countries.txt
+  # agora que você está dentro do arquivo, digite uma barra `/` e em seguida a palavra Zambia
+  # /Zambia
+  # pressione "Enter" para sair
+  
+  
+  * "grep" --- O grep é um comando com uma função simples: ele procura por trechos de texto (strings) dentro de arquivos ou diretórios e retorna para você em quais arquivos a string foi encontrada, inclusive mostrando a linha em que isso ocorreu.
+
