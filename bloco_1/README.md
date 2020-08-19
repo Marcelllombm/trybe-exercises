@@ -85,7 +85,8 @@ SQL
 
 === Parte I -Manipulação & Busca ===
 
------------------------------------------------------
+
+
 
 1º Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
 Copiar
