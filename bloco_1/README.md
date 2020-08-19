@@ -99,5 +99,9 @@ SQL
 * "clear" é um comando Unix e UNIX like, que limpa o conteúdo da tela de um terminal virtual. O comando não necessita de parâmetros, ele utiliza variáveis do ambiente de trabalho atual para determinar como limpar a tela.
 
 
-* O comando "head" é usado para mostrar no terminal o conteúdo do início de um arquivo de texto. Por padrão, ele mostrará as primeiras 10 linhas do arquivo. exemplo: head -n 5 skills.txt  
+* O comando "head" é usado para mostrar no terminal o conteúdo do início de um arquivo de texto. Por padrão, ele mostrará as primeiras 10 linhas do arquivo. 
+exemplo: head -n 5 skills.txt
+
+* números N ou tails de uma entrada. Geralmente, ele exibe, ou imprime, os últimos 10 números do arquivo. Se utilizarmos em um único nome de arquivo, dados de cada arquivo procedem de seu nome de arquivo com um header.
+exemplo tail -n 4 skills.txt
 
