@@ -206,5 +206,9 @@ exemplo tail -n 4 skills.txt
   
   * "wc -l" ---Existem comandos dentro do Unix/Linux que desconhecemos, porque são muito pouco usados mesmo. O comando " wc arquivo " fornece o número de linhas, palavras e bytes contidos no arquivo.
  
+  * "ls -l "--- liste todos os arquivos e a sua permissão
   
+  * "ls -l *txt" --- o sibolo de * lista todos os arquivos que terminem com txt
+  
+  * "ls -l *t?t" --- o sibolo ? perminte adiconar qualquer letra em geral para buscar.
 
