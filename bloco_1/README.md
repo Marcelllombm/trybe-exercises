@@ -176,6 +176,8 @@ apagar todo conteúdo com .txt exemplo rm *.txt
 * O comando "head" é usado para mostrar no terminal o conteúdo do início de um arquivo de texto. Por padrão, ele mostrará as primeiras 10 linhas do arquivo. 
 exemplo: head -n 5 skills.txt
 
-* números N ou tails de uma entrada. Geralmente, ele exibe, ou imprime, os últimos 10 números do arquivo. Se utilizarmos em um único nome de arquivo, dados de cada arquivo procedem de seu nome de arquivo com um header.
+* "tail" números N ou tails de uma entrada. Geralmente, ele exibe, ou imprime, os últimos 10 números do arquivo. Se utilizarmos em um único nome de arquivo, dados de cada arquivo procedem de seu nome de arquivo com um header.
 exemplo tail -n 4 skills.txt
 
+
+* "cat" --- Em sistemas operacionais do tipo Unix, o comando cat lê dados de arquivos e gera seu conteúdo. É a maneira mais simples de exibir o conteúdo de um arquivo na linha de comando 
