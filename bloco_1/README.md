@@ -1,4 +1,4 @@
-# Bloco 1 - Unix & Bash / Shell Script
+# Bloco 1 - Unix & Bash 
 
 === Parte I - Criação de arquivos e diretórios ===
 
@@ -36,7 +36,48 @@
 
 -----------------------------------------------------
 
+9ª Apague a pasta backup.
 
+-----------------------------------------------------
+
+10º Renomeie a pasta backup2 para backup.
+
+-----------------------------------------------------
+
+11º Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
+
+-----------------------------------------------------
+
+12º Apague o diretório backup.
+
+-----------------------------------------------------
+
+13º Limpe o terminal.
+Para os exercícios, 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional, um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
+
+Copiar
+Internet
+Unix
+Bash
+HTML
+CSS
+JavaScript
+React
+SQL
+
+-----------------------------------------------------
+
+14º Mostre na tela as 5 primeiras skills do arquivo skills.txt.
+
+-----------------------------------------------------
+
+15º Mostre na tela as 4 últimas skills do arquivo skills.txt.
+
+-----------------------------------------------------
+
+16º Apague todos os arquivos que terminem em .txt.
+
+-----------------------------------------------------
 * O comando "mkdir" (make directory) serve para a criação de diretórios. Um diretório é um local que serve de armazenamento para outros diretórios ou arquivos
 
 * Na linha de comando do sistema operacional Unix, o "ls" (derivado das primeiras consoantes da palavra inglesa list) é um comando usado para listar arquivos e diretórios.
