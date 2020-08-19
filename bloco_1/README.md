@@ -181,3 +181,12 @@ exemplo tail -n 4 skills.txt
 
 
 * "cat" --- Em sistemas operacionais do tipo Unix, o comando cat lê dados de arquivos e gera seu conteúdo. É a maneira mais simples de exibir o conteúdo de um arquivo na linha de comando 
+
+* "less" --- Permite fazer a paginação de arquivos ou da entrada padrão. O comando less pode ser usado como comando para leitura de arquivos que ocupem mais de uma tela.
+
+ less countries.txt
+  # ou...
+  more countries.txt
+
+* "more" --- O comando more permite fazer a paginação de arquivos. O mesmo também permite a leitura de arquivos longos. Também pode usar o | (pipe) para redirecionar a saída de um comando para o more. Enter ou espaço para correr a página e q para sair.
+
