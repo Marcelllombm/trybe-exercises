@@ -200,4 +200,8 @@ exemplo tail -n 4 skills.txt
   
   
   * "grep" --- O grep é um comando com uma função simples: ele procura por trechos de texto (strings) dentro de arquivos ou diretórios e retorna para você em quais arquivos a string foi encontrada, inclusive mostrando a linha em que isso ocorreu.
+  
+  grep -i brazil countries.txt //o lentra i transforma todo em maiusculo
+  grep -v fox pharases.txt // a letra -v busca pelas frase que não contenham a palavra fox
+  
 
