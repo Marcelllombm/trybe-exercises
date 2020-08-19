@@ -94,7 +94,8 @@ SQL
 
 * O "pwd" (print working directory) é um comando que imprime o nome do diretório local em uma interface de linha de comando. Este comando é encontrado nos sistemas operacionais da família Unix.
 
-* O comando 'rm' é usado para excluir arquivos ou diretórios do sistema. As opções mais usadas são: -f: Força a remoção, não pergunta antes de remover. -R: Remove diretório e todo seu conteúdo.
+* O comando 'rm' é usado para excluir arquivos ou diretórios do sistema. As opções mais usadas são: -f: Força a remoção, não pergunta antes de remover. -R: Remove diretório e todo seu conteúdo. 
+apagar todo conteúdo com .txt exemplo rm *.txt
 
 * "clear" é um comando Unix e UNIX like, que limpa o conteúdo da tela de um terminal virtual. O comando não necessita de parâmetros, ele utiliza variáveis do ambiente de trabalho atual para determinar como limpar a tela.
 
