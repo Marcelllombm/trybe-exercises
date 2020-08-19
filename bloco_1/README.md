@@ -381,4 +381,7 @@ exemplo tail -n 4 skills.txt
   
   * "man " --- O man é o comando do sistema Unix e similares que exibe, de forma adequada, as páginas de manual do Unix, ou man pages, que são pequenos arquivos de ajuda. 
   exemplo : man l
+  
+  * "echo" --- Em Informática, echo é um comando disponível no Unix que apresenta um texto na tela de um terminal de computador. É um comando utilizado em scripts para exibir mensagens na tela ou em um arquivo.
+  
 
