@@ -92,6 +92,8 @@ SQL
 
 * O comando "cat" do Linux é um dos mais úteis para se aprender. Seu nome é uma derivação da palavra concatenate (concatenar) e permite que você crie, una e exiba arquivos no formato padrão de tela ou em outro arquivo, entre outras coisas.
 
-* O pwd (print working directory) é um comando que imprime o nome do diretório local em uma interface de linha de comando. Este comando é encontrado nos sistemas operacionais da família Unix.
+* O "pwd" (print working directory) é um comando que imprime o nome do diretório local em uma interface de linha de comando. Este comando é encontrado nos sistemas operacionais da família Unix.
+
+O comando 'rm' é usado para excluir arquivos ou diretórios do sistema. As opções mais usadas são: -f: Força a remoção, não pergunta antes de remover. -R: Remove diretório e todo seu conteúdo.
 
 
