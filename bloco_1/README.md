@@ -386,3 +386,4 @@ exemplo tail -n 4 skills.txt
   
   * "sort" --- O comando sort do sistema operacional Unix possui a função de ordenar uma sequência de linhas de maneira crescente ou decrescente de maneira numérica ou alfabética
 
+* "|" pipe ajuda colocar dois comando ou mais no mesmo codigo de linha
