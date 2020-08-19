@@ -211,4 +211,7 @@ exemplo tail -n 4 skills.txt
   * "ls -l *txt" --- o sibolo de * lista todos os arquivos que terminem com txt
   
   * "ls -l *t?t" --- o sibolo ? perminte adiconar qualquer letra em geral para buscar.
+  
+  * "man " --- O man é o comando do sistema Unix e similares que exibe, de forma adequada, as páginas de manual do Unix, ou man pages, que são pequenos arquivos de ajuda. 
+  exemplo : man l
 
