@@ -1,4 +1,4 @@
-# Bloco 1 - Unix & Bash 
+# Bloco 1 - Unix & Bash
 
 === Parte I - Criação de arquivos e diretórios ===
 
@@ -78,6 +78,78 @@ SQL
 16º Apague todos os arquivos que terminem em .txt.
 
 -----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+
+
+
+=== Parte I -Manipulação & Busca ===
+
+-----------------------------------------------------
+
+1º Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
+Copiar
+
+
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+
+-----------------------------------------------------
+
+2º Mostre todo o conteúdo do arquivo countries.txt na tela.
+
+-----------------------------------------------------
+3º Mostre o conteúdo de countries.txt, página por página, até encontra a Zambia.
+
+-----------------------------------------------------
+
+4º Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
+
+-----------------------------------------------------
+5º Busque por Brazil no countries.txt.
+
+-----------------------------------------------------
+
+6ºBusque novamente por brazil, mas agora utilizando o lower case.
+
+Para os próximos exercícios, crie um novo arquivo chamado phrases.txt e adicione algumas frases a sua escolha. Não precisa criar o arquivo pelo terminal.
+
+-----------------------------------------------------
+
+7º Busque pelas frases que não contenham a palavra fox.
+
+-----------------------------------------------------
+
+8º Conte o número de palavras do arquivo phrases.txt.
+
+-----------------------------------------------------
+
+9º Conte o número de linhas do arquivo phrases.txt.
+
+-----------------------------------------------------
+
+10º Crie os arquivos empty.tbt e empty.pdf.
+
+-----------------------------------------------------
+
+11º Liste todos os arquivos do diretório unix_tests.
+
+-----------------------------------------------------
+
+12º Liste todos os arquivos que terminem com txt.
+
+-----------------------------------------------------
+
+13º Liste todos os arquivos que terminem com tbt ou txt.
+
+-----------------------------------------------------
+
+14º Acesse o manual do comando ls.
+
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+
+
 * O comando "mkdir" (make directory) serve para a criação de diretórios. Um diretório é um local que serve de armazenamento para outros diretórios ou arquivos
 
 * Na linha de comando do sistema operacional Unix, o "ls" (derivado das primeiras consoantes da palavra inglesa list) é um comando usado para listar arquivos e diretórios.
