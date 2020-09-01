@@ -9,5 +9,4 @@ let inputLine = "";
         console.log(inputLine);
         inputLine = inputLine + asteristic;
 
-
   }
