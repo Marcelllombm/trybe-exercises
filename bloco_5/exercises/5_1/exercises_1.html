@@ -76,7 +76,7 @@
     // exercise_4 
     function correctH1(){
         let correct_h1 = document.getElementsByTagName("h1")[0];
-        correct_h1.innerText = "javascritp";
+        correct_h1.innerText = "Exercício 5.1 - javascritp";
     }
     correctH1();
 
@@ -86,6 +86,15 @@
         uppercaseText.innerText = uppercaseText.innerText.toUpperCase();   
     }
     upperCase();
+
+    // exercise_6
+    function allContent(){
+        let allP = document.getElementsByTagName("p");
+        for (let index = 0; index < allP.length; index +=1){
+            console.log(allP[index].innerText);
+        }
+    }
+    allContent();
     </script>
   </body>
 </html>
