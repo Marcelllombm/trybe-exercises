@@ -45,3 +45,24 @@ input[type="text"] {
 .line-content{
     margin: 20px;
 }
+.legacy-form-row{
+    padding: 10px;
+}
+.input[type="radio"]{
+    padding: 50px;
+}
+textarea{
+    width: 100%;
+}
+
+button{
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(214, 217, 220);
+    border-radius: 3px;
+    border-radius: 5px;
+}

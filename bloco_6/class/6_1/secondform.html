@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<>>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="secondform.css">
 </head>
@@ -16,14 +16,44 @@
 
             <div class="line-content">
                 <label for="full-name">Nome:</label>
-                <input type="text" id="full-name" >
+                <input type="text" name="full-name "id="full-name" >
             </div>
             
             <div class="line-content">
+                <fieldset class="legacy-form-row">
+                    <legend>Tipo da Palestra</legend>
+                    
+                    <input type="radio" id="main-stage" value="main-stage" name="type-talk">
+                    <label for="main-stage">Main Stage</label>
+                   <br>
+                    <input type="radio" id="wordkshop" value="wordkshop" name="type-talk">
+                    <label for="wordkshop">Workshop</label>
+                </fieldset>
             </div>
 
+            <div class="line-content"> 
+                <label for="t-shirt">Tamanho da camisa</label>
+                <select name="t-shirt" id="t-shirt">
+                    <option value="gg">GG</option>
+                    <option value="g">G</option>
+                    <option value="m">M</option>
+                    <option value="p">P</option>
+                </select>
+            </div>
 
+            <div class="line-content">
+                <label for="">Descrição da Palestra</label>
+                <textarea name ="abstract" maxlength="500" rows="10" cols="30"></textarea>
+                <p><em>Descreva sua Palestra em 500 palavras ou menos</em></p>
+            </div>
 
+            <div class="line-content">
+            <input type="checkbox" name="available" id="checkbox-availability">
+            <span>Estou disponível para palestra nessa data</span>
+            </div>
+        </div>
+        <div class="line-content">
+        <button type="submit">Enviar</button>
         </div>
     </form>
 </body>
