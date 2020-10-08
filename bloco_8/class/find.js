@@ -9,8 +9,8 @@ const users= [
 
 // faça um algoristimo que
 
-const familyGavePersonThatDontDrive = users.some((user)=>{
+const firtPese = users.find((user)=>{
     return user.inDriver === false;
 });
 
-console.log(familyGavePersonThatDontDrive);
+console.log(firtPese);
