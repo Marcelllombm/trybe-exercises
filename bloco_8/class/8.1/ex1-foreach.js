@@ -1,10 +1,10 @@
-// criar um função que perminte enviar um email para cada pessoal cadastrada no array usado foreach
+// crie uma função que perminte enviar um email para cada pessoal cadastrada no array usado foreach
 
 let listOfPeople = [
-    'ada.lovelaca@examplo.com',
-    'marie.curi@examplo.com',
-    'margaret.hamilt@example.com',
-    'alan.turi@example.com'
+  'ada.lovelaca@examplo.com',
+  'marie.curi@examplo.com',
+  'margaret.hamilt@example.com',
+  'alan.turi@example.com'
 ];
 const sendEmail = (email) => {
   console.log(`Email para ${email} foi enviado com sucesso`);
