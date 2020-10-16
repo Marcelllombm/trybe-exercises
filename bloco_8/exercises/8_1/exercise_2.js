@@ -1,6 +1,4 @@
-// Find the name of the first author of the book born in 1947.
-// Tip: use the find function.
-
+// Retorne o nome do livro de menor nome.
 const assert = require('assert');
 
 const books = [
@@ -66,16 +64,12 @@ const books = [
   },
 ];
 
-function authorBornIn1947() {
+function smallerName() {
+  let nameBook;
   // escreva aqui o seu código
-  //return books.find(book => book.author.birthYear === 1947).author.name;
-  return books.find((objetcBook) => {
-    if(objetcBook.author.birthYear === 1947){
-      return true;
-    } else {
-      return false;
-    }
-  }).author.name;
+
+  // Variável nameBook que receberá o valor do menor nome;
+  return nameBook;
 }
 
-assert.equal(authorBornIn1947(), 'Stephen King');
+assert.equal(smallerName(), 'Duna');
