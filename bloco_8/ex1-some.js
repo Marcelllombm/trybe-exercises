@@ -6,11 +6,11 @@ const users= [
     {firstName: 'Home', lastName: 'simpson', inDriver: true}
     
 ];
+//create a function, that shows people, that does not drive using the above array.
+// Write your solution here
 
-// faça um algoristimo que
-
-const familyGavePersonThatDontDrive = users.some((user)=>{
-    return user.inDriver === false;
+const familyHavePersonThatDontDivre = users.some((users)=>{
+  return users.inDriver === false; 
 });
 
-console.log(familyGavePersonThatDontDrive);
+console.log(familyHavePersonThatDontDivre);

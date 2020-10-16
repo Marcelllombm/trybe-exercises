@@ -5,11 +5,11 @@
 
 [find](https://www.w3schools.com/jsref/jsref_find.asp)
 
-[some]
+[some](https://developer.cdn.mozilla.net/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
-[every]
+[every](https://developer.cdn.mozilla.net/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
-[sort]
+[sort](https://developer.cdn.mozilla.net/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 # exercise forEach
 1. send an email
@@ -66,3 +66,20 @@ const inventory = [
 // Find an object in an array by one of its properties
 // Write your solution here
  ...
+
+ # exercise find
+
+ 1. driver
+
+...
+const users= [
+    {firstName: 'Home', lastName: 'simpson', inDriver: true},
+    {firstName: 'Home', lastName: 'simpson', inDriver: true},
+    {firstName: 'marcelo', lastName: 'simpson', inDriver: false},
+    {firstName: 'rosy', lastName: 'simpson', inDriver: false},
+    {firstName: 'Home', lastName: 'simpson', inDriver: true}
+    
+];
+//create a function, that shows people, that does not drive using the above array.
+// Write your solution here
+...
