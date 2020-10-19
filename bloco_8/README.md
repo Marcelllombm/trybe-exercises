@@ -11,7 +11,15 @@
 
 [sort](https://developer.cdn.mozilla.net/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
-# exercise forEach
+## Additional resources
+
+[Qual a diferença entre as funções filter e find no javascript?] (https://www.youtube.com/watch?v=_vLlU-a8-MA)
+
+[Página do MDN sobre forEach](https://developer.cdn.mozilla.net/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+[Página do MDN sobre sort](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+
+## exercise forEach
 1. send an email
  ...
 let listOfPeople = [
@@ -53,7 +61,7 @@ const students = [
 // Write your solution here
 ...
 
- # exercise find
+ ## exercise find
 
  1. Find an array
 
@@ -67,9 +75,7 @@ const inventory = [
 // Write your solution here
  ...
 
- # exercise find
-
- 1. driver
+2. find people
 
 ...
 const users= [
@@ -80,6 +86,303 @@ const users= [
     {firstName: 'Home', lastName: 'simpson', inDriver: true}
     
 ];
-//create a function, that shows people, that does not drive using the above array.
+// Find the first person who doesn't know how to drive
 // Write your solution here
+...
+ ## exercise some
+
+ 1. some people drive
+
+...
+const users= [
+    {firstName: 'Home', lastName: 'simpson', inDriver: true},
+    {firstName: 'Home', lastName: 'simpson', inDriver: true},
+    {firstName: 'marcelo', lastName: 'simpson', inDriver: false},
+    {firstName: 'rosy', lastName: 'simpson', inDriver: false},
+    {firstName: 'Home', lastName: 'simpson', inDriver: true}
+    
+];
+//create a function, that shows some people, that does not drive using the above array.
+// Write your solution here
+...
+
+## exercise every
+
+1. all people drive 
+
+...
+const users= [
+    {firstName: 'Home', lastName: 'simpson', inDriver: true},
+    {firstName: 'Home', lastName: 'simpson', inDriver: true},
+    {firstName: 'marcelo', lastName: 'simpson', inDriver: false},
+    {firstName: 'rosy', lastName: 'simpson', inDriver: false},
+    {firstName: 'Home', lastName: 'simpson', inDriver: true}
+    
+];
+
+// create a function, that shows all people, that does not drive using the above array.
+// Write your solution here
+...
+
+## exercise sort
+
+1. Put the array
+
+...
+const characters = ["D", "C", "B", "A"];
+
+// Put the array in sort.
+// Write your solution here
+...
+
+## activity
+
+1. exercise 1
+
+...
+// Find the name of the first author of the book born in 1947.
+// Tip: use the find function.
+
+const assert = require('assert');
+
+const books = [
+  {
+    id: 1,
+    name: 'As Crônicas de Gelo e Fogo',
+    genre: 'Fantasia',
+    author: {
+      name: 'George R. R. Martin',
+      birthYear: 1948
+    },
+    releaseYear: 1991,
+  },
+  {
+    id: 2,
+    name: 'O Senhor dos Anéis',
+    genre: 'Fantasia',
+    author: {
+      name: 'J. R. R. Tolkien',
+      birthYear: 1892,
+    },
+    releaseYear: 1954,
+  },
+  {
+    id: 3,
+    name: 'Fundação',
+    genre: 'Ficção Científica',
+    author: {
+      name: 'Isaac Asimov',
+      birthYear: 1920,
+    },
+    releaseYear: 1951,
+  },
+  {
+    id: 4,
+    name: 'Duna',
+    genre: 'Ficção Científica',
+    author: {
+      name: 'Frank Herbert',
+      birthYear: 1920,
+    },
+    releaseYear: 1965,
+  },
+  {
+    id: 5,
+    name: 'A Coisa',
+    genre: 'Terror',
+    author: {
+      name: 'Stephen King',
+      birthYear: 1947
+    },
+    releaseYear: 1986,
+  },
+  {
+    id: 6,
+    name: 'O Chamado de Cthulhu',
+    genre: 'Terror',
+    author: {
+      name: 'H. P. Lovecraft',
+      birthYear: 1890,
+    },
+    releaseYear: 1928,
+  },
+];
+
+function authorBornIn1947() {
+  // escreva aqui o seu código
+}
+
+assert.equal(authorBornIn1947(), 'Stephen King');
+
+...
+
+2. exercise 2
+
+...
+// Retorne o nome do livro de menor nome.
+
+const assert = require('assert');
+
+const books = [
+  {
+    id: 1,
+    name: 'As Crônicas de Gelo e Fogo',
+    genre: 'Fantasia',
+    author: {
+      name: 'George R. R. Martin',
+      birthYear: 1948
+    },
+    releaseYear: 1991,
+  },
+  {
+    id: 2,
+    name: 'O Senhor dos Anéis',
+    genre: 'Fantasia',
+    author: {
+      name: 'J. R. R. Tolkien',
+      birthYear: 1892,
+    },
+    releaseYear: 1954,
+  },
+  {
+    id: 3,
+    name: 'Fundação',
+    genre: 'Ficção Científica',
+    author: {
+      name: 'Isaac Asimov',
+      birthYear: 1920,
+    },
+    releaseYear: 1951,
+  },
+  {
+    id: 4,
+    name: 'Duna',
+    genre: 'Ficção Científica',
+    author: {
+      name: 'Frank Herbert',
+      birthYear: 1920,
+    },
+    releaseYear: 1965,
+  },
+  {
+    id: 5,
+    name: 'A Coisa',
+    genre: 'Terror',
+    author: {
+      name: 'Stephen King',
+      birthYear: 1947
+    },
+    releaseYear: 1986,
+  },
+  {
+    id: 6,
+    name: 'O Chamado de Cthulhu',
+    genre: 'Terror',
+    author: {
+      name: 'H. P. Lovecraft',
+      birthYear: 1890,
+    },
+    releaseYear: 1928,
+  },
+];
+
+function smallerName() {
+  let nameBook;
+  // escreva aqui o seu código
+
+  // Variável nameBook que receberá o valor do menor nome;
+  return nameBook;
+}
+
+assert.equal(smallerName(), 'Duna');
+
+...
+
+2. exercise 2
+
+...
+// Encontre o primeiro livro cujo nome possui 26 caracteres.
+
+const assert = require('assert');
+
+const books = [
+  {
+    id: 1,
+    name: 'As Crônicas de Gelo e Fogo',
+    genre: 'Fantasia',
+    author: {
+      name: 'George R. R. Martin',
+      birthYear: 1948
+    },
+    releaseYear: 1991,
+  },
+  {
+    id: 2,
+    name: 'O Senhor dos Anéis',
+    genre: 'Fantasia',
+    author: {
+      name: 'J. R. R. Tolkien',
+      birthYear: 1892,
+    },
+    releaseYear: 1954,
+  },
+  {
+    id: 3,
+    name: 'Fundação',
+    genre: 'Ficção Científica',
+    author: {
+      name: 'Isaac Asimov',
+      birthYear: 1920,
+    },
+    releaseYear: 1951,
+  },
+  {
+    id: 4,
+    name: 'Duna',
+    genre: 'Ficção Científica',
+    author: {
+      name: 'Frank Herbert',
+      birthYear: 1920,
+    },
+    releaseYear: 1965,
+  },
+  {
+    id: 5,
+    name: 'A Coisa',
+    genre: 'Terror',
+    author: {
+      name: 'Stephen King',
+      birthYear: 1947
+    },
+    releaseYear: 1986,
+  },
+  {
+    id: 6,
+    name: 'O Chamado de Cthulhu',
+    genre: 'Terror',
+    author: {
+      name: 'H. P. Lovecraft',
+      birthYear: 1890,
+    },
+    releaseYear: 1928,
+  },
+];
+
+const expected_result = {
+  author: {
+    birthYear: 1948,
+    name: 'George R. R. Martin'
+  },
+  genre: 'Fantasia',
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  releaseYear: 1991
+};
+
+function getNamedBook() {
+  // escreva seu código aqui
+}
+
+assert.deepEqual(getNamedBook(), expected_result);
+
 ...
