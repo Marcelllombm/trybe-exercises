@@ -21,7 +21,7 @@
 
 ## exercise forEach
 1. send an email
- ...
+```
 let listOfPeople = [
   'ada.lovelaca@examplo.com',
   'marie.curi@examplo.com',
@@ -30,7 +30,7 @@ let listOfPeople = [
 ];
 // create a function that allows you to send an email to each person registered in the array.
 // write your solution here
-...
+```
 
 2. Say hi my
 ...
