@@ -20,7 +20,7 @@
 [Página do MDN sobre sort](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 ## exercise forEach
-1. - [ ] send an email
+1. - [x] send an email
 ```
 let listOfPeople = [
   'ada.lovelaca@examplo.com',
