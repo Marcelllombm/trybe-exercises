@@ -1,5 +1,4 @@
-# day 8.1
-###JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+# day 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 
 [foreach](https://www.w3schools.com/jsref/jsref_foreach.asp)
 
@@ -19,6 +18,7 @@
 
 [Página do MDN sobre sort](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
+[teste](#sort)
 ## exercise forEach
 1. - [x] send an email
 ```
@@ -33,7 +33,7 @@ let listOfPeople = [
 ```
 ~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_8/class/8_1/ex1-foreach.js)~~
 
-2. Say hi my
+2. - [x] Say hi my
 ```
 const friends = ["Marcelo", "Lucas", "Maria", "Carla", "Joaquim"];
 
@@ -41,7 +41,7 @@ const friends = ["Marcelo", "Lucas", "Maria", "Carla", "Joaquim"];
 // Write your solution here
 ```
 
-3. Big Crazy
+3. - [x] Big Crazy
 ```
 // Thats an array with big numbers we cant read 
 const nums = [103440, 3799.2663, 3.14159265359, 859494, 59439];
@@ -50,7 +50,7 @@ let total = 0;
 // Write your solution here
 ```
 
-4. aprroved
+4. - [x] aprroved
 ```
 const students = [
     {name:"Maria", note: 70, approved: ''},
@@ -64,7 +64,7 @@ const students = [
 
  ## exercise find
 
- 1. Find an array
+ 1. - [x] Find an array
 
  ```
 const inventory = [
@@ -76,7 +76,7 @@ const inventory = [
 // Write your solution here
  ```
 
-2. find people
+2. - [x] find people
 
 ```
 const users= [
@@ -92,7 +92,7 @@ const users= [
 ```
  ## exercise some
 
- 1. some people drive
+ 1. - [x] some people drive
 
 ```
 const users= [
@@ -109,7 +109,7 @@ const users= [
 
 ## exercise every
 
-1. all people drive 
+1. - [x] all people drive 
 
 ```
 const users= [
@@ -126,8 +126,9 @@ const users= [
 ```
 
 ## exercise sort
+#sort
 
-1. Put the array
+1. - [x] Put the array
 
 ```
 const characters = ["D", "C", "B", "A"];
@@ -138,7 +139,7 @@ const characters = ["D", "C", "B", "A"];
 
 ## activity
 
-1. exercise 1
+1. - [x] exercise 1
 
 ```
 // Find the name of the first author of the book born in 1947.
@@ -217,7 +218,7 @@ assert.equal(authorBornIn1947(), 'Stephen King');
 
 ```
 
-2. exercise 2
+2. - [x] exercise 2
 
 ```
 // Retorne o nome do livro de menor nome.
@@ -299,7 +300,7 @@ assert.equal(smallerName(), 'Duna');
 
 ```
 
-2. exercise 2
+3. - [x] exercise 3
 
 ```
 // Encontre o primeiro livro cujo nome possui 26 caracteres.
