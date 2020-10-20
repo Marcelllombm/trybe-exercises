@@ -33,24 +33,24 @@ let listOfPeople = [
 ```
 
 2. Say hi my
-...
+```
 const friends = ["Marcelo", "Lucas", "Maria", "Carla", "Joaquim"];
 
 // For each friend in friends, print "Hi my friendName!"
 // Write your solution here
-...
+```
 
 3. Big Crazy
-...
+```
 // Thats an array with big numbers we cant read 
 const nums = [103440, 3799.2663, 3.14159265359, 859494, 59439];
 let total = 0;
 // Sum all the numbers in nums and save the result in total
 // Write your solution here
-...
+```
 
 4. aprroved
-...
+```
 const students = [
     {name:"Maria", note: 70, approved: ''},
     {name:"Samuel", note: 50, approved: ''},
@@ -59,13 +59,13 @@ const students = [
 ];
 // you have a matrix that needs to be approved by students who have achieved grade 60. you should probably write a function using forEach.
 // Write your solution here
-...
+```
 
  ## exercise find
 
  1. Find an array
 
- ...
+ ```
 const inventory = [
     {name: 'maças', quantity: 2},
     {name: 'bananas', quantity: 0},
@@ -73,11 +73,11 @@ const inventory = [
 ];
 // Find an object in an array by one of its properties
 // Write your solution here
- ...
+ ```
 
 2. find people
 
-...
+```
 const users= [
     {firstName: 'Home', lastName: 'simpson', inDriver: true},
     {firstName: 'Home', lastName: 'simpson', inDriver: true},
@@ -88,12 +88,12 @@ const users= [
 ];
 // Find the first person who doesn't know how to drive
 // Write your solution here
-...
+```
  ## exercise some
 
  1. some people drive
 
-...
+```
 const users= [
     {firstName: 'Home', lastName: 'simpson', inDriver: true},
     {firstName: 'Home', lastName: 'simpson', inDriver: true},
@@ -104,13 +104,13 @@ const users= [
 ];
 //create a function, that shows some people, that does not drive using the above array.
 // Write your solution here
-...
+```
 
 ## exercise every
 
 1. all people drive 
 
-...
+```
 const users= [
     {firstName: 'Home', lastName: 'simpson', inDriver: true},
     {firstName: 'Home', lastName: 'simpson', inDriver: true},
@@ -122,24 +122,24 @@ const users= [
 
 // create a function, that shows all people, that does not drive using the above array.
 // Write your solution here
-...
+```
 
 ## exercise sort
 
 1. Put the array
 
-...
+```
 const characters = ["D", "C", "B", "A"];
 
 // Put the array in sort.
 // Write your solution here
-...
+```
 
 ## activity
 
 1. exercise 1
 
-...
+```
 // Find the name of the first author of the book born in 1947.
 // Tip: use the find function.
 
@@ -214,11 +214,11 @@ function authorBornIn1947() {
 
 assert.equal(authorBornIn1947(), 'Stephen King');
 
-...
+```
 
 2. exercise 2
 
-...
+```
 // Retorne o nome do livro de menor nome.
 
 const assert = require('assert');
@@ -296,11 +296,11 @@ function smallerName() {
 
 assert.equal(smallerName(), 'Duna');
 
-...
+```
 
 2. exercise 2
 
-...
+```
 // Encontre o primeiro livro cujo nome possui 26 caracteres.
 
 const assert = require('assert');
@@ -385,4 +385,4 @@ function getNamedBook() {
 
 assert.deepEqual(getNamedBook(), expected_result);
 
-...
+```
