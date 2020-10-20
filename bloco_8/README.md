@@ -31,6 +31,7 @@ let listOfPeople = [
 // create a function that allows you to send an email to each person registered in the array.
 // write your solution here
 ```
+~~[solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_8/class/8_1/ex1-foreach.js)~~
 
 2. Say hi my
 ```
