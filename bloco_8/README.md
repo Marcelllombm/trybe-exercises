@@ -13,7 +13,7 @@
 
 ## Additional resources
 
-[Qual a diferença entre as funções filter e find no javascript?] (https://www.youtube.com/watch?v=_vLlU-a8-MA)
+[Qual a diferença entre as funções filter e find no javascript?](https://www.youtube.com/watch?v=_vLlU-a8-MA)
 
 [Página do MDN sobre forEach](https://developer.cdn.mozilla.net/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
