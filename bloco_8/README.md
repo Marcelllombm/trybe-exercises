@@ -18,7 +18,7 @@
 
 [Página do MDN sobre sort](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
-[teste](#sort)
+[teste](https://github.com/Marcelllombm/trybe-exercises/tree/master/bloco_8#activity)
 ## exercise forEach
 1. - [x] send an email
 ```
