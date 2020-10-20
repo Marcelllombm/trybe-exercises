@@ -20,7 +20,7 @@
 [Página do MDN sobre sort](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 ## exercise forEach
-1. send an email
+1. - [] send an email
 ```
 let listOfPeople = [
   'ada.lovelaca@examplo.com',
@@ -31,7 +31,7 @@ let listOfPeople = [
 // create a function that allows you to send an email to each person registered in the array.
 // write your solution here
 ```
-~~[solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_8/class/8_1/ex1-foreach.js)~~
+~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_8/class/8_1/ex1-foreach.js)~~
 
 2. Say hi my
 ```
