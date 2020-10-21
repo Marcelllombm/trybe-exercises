@@ -1,4 +1,4 @@
-[day 8.1](https://github.com/Marcelllombm/trybe-exercises/tree/master/bloco_8#day-81---javascript-es6---higher-order-functions---foreach-find-some-every-sort) [day 8.2]() [day 8.3]() [day 8.4]()
+| [day 8.1](https://github.com/Marcelllombm/trybe-exercises/tree/master/bloco_8#day-81---javascript-es6---higher-order-functions---foreach-find-some-every-sort) | [day 8.2]() | [day 8.3]() | [day 8.4]() |
 
 # day 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 
@@ -408,7 +408,7 @@ assert.deepEqual(getNamedBook(), expected_result);
 
 4. - [x] exercise 4
 
-...
+```
 // Sort books by release date in descending order.
 
 const assert = require('assert');
@@ -527,12 +527,12 @@ function booksOrderedByReleaseYearDesc() {
 
 
 assert.deepEqual(booksOrderedByReleaseYearDesc(), expected_result);
-...
+```
 ~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_8/exercises/8_1/exercise_4.js)~~
 
 5. - [x] exercise 5
 
-...
+```
 // 
 Make a function that returns true, if all authors were born in the 20th century, or false, otherwise.
 
@@ -609,12 +609,12 @@ function everyoneWasBornOnSecXX() {
 
 assert.equal(everyoneWasBornOnSecXX(), expected_result);
 
-...
+```
 ~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_8/exercises/8_1/exercise_5.js)~~
 
 6. - [x] exercise 6
 
-...
+```
 //  
 Make a function that returns true, if any book was released in the 1980s, and false, otherwise.
 
@@ -691,12 +691,12 @@ function someBookWasReleaseOnThe80s() {
 
 assert.equal(someBookWasReleaseOnThe80s(), expected_result);
 
-...
+```
 ~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_8/exercises/8_1/exercise_6.js)~~
 
 7. - [x] exercise 7
 
-...
+```
 // Make a function that returns true, if no author was born in the same year, and false, otherwise.
 
 const assert = require('assert');
@@ -772,5 +772,5 @@ function authorUnique() {
 
 assert.equal(authorUnique(), expected_result);
 
-...
+```
 ~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_8/exercises/8_1/exercise_7.js)~~
