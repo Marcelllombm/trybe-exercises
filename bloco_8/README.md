@@ -1,4 +1,4 @@
-| [day 8.1](https://github.com/Marcelllombm/trybe-exercises/tree/master/bloco_8#day-81---javascript-es6---higher-order-functions---foreach-find-some-every-sort) | JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+| [day 8.1](https://github.com/Marcelllombm/trybe-exercises/tree/master/bloco_8#day-81---javascript-es6---higher-order-functions---foreach-find-some-every-sort) | JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort <br>
 | [day 8.2]() | [day 8.3]() | [day 8.4]() |
 
 # day 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
