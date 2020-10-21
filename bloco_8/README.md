@@ -774,3 +774,7 @@ assert.equal(authorUnique(), expected_result);
 
 ```
 ~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_8/exercises/8_1/exercise_7.js)~~
+#
+#
+#
+# day 8.2 -
