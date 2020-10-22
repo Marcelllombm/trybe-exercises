@@ -1,5 +1,5 @@
-| [day 9.1 JavaScript Assíncrono e Callbacks]() | <br>
-| [day 9.2 JavaScript Promises]() | <br>
+| [day 9.1 JavaScript Assíncrono e Callbacks](https://github.com/Marcelllombm/trybe-exercises/tree/master/bloco_9#day-91-javascript-ass%C3%ADncrono-e-callbacks) | <br>
+| [day 9.2 JavaScript Promises](https://github.com/Marcelllombm/trybe-exercises/tree/master/bloco_9#day-92-javascript-promises) | <br>
 | [Projeto]() | <br>
 
 # Day 9.1 JavaScript Assíncrono e Callbacks
@@ -186,5 +186,9 @@ sendMarsTemperature(temperatureInFahrenheit, handleError);
 sendMarsTemperature(greet, handleError);
 ```
 ~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_9/exercises/9_1/exercise_6.js)~~
+
+| [day 9.1 JavaScript Assíncrono e Callbacks](https://github.com/Marcelllombm/trybe-exercises/tree/master/bloco_9#day-91-javascript-ass%C3%ADncrono-e-callbacks) | <br>
+| [day 9.2 JavaScript Promises](https://github.com/Marcelllombm/trybe-exercises/tree/master/bloco_9#day-92-javascript-promises) | <br>
+| [Projeto]() | <br>
 
 # Day 9.2 JavaScript Promises
