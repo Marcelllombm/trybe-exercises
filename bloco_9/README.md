@@ -1,5 +1,5 @@
-| [day 9.1]() | <br>
-| [day 9.2]() | <br>
+| [day 9.1 JavaScript Assíncrono e Callbacks]() | <br>
+| [day 9.2 JavaScript Promises]() | <br>
 | [Projeto]() | <br>
 
 # Day 9.1 JavaScript Assíncrono e Callbacks
@@ -15,76 +15,82 @@
 
 ### exercise
 
-1. - [x] getUser
+1. - [x] observer
 
 ```
-// No código abaixo você tem a função getUser, que retorna uma pessoa qualquer. Complete a função getUser de forma que ela receba uma outra função como parâmetro para que possa realizar as operações abaixo sobre a pessoa retornada.
+// Dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
 
-const assert = require('assert');
+const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
+  `${name} is ${value} ${measurementUnit} apart from the Sun`;
 
-const userFullName = ({ firstName, lastName }) => `Hello! My name is ${firstName} ${lastName}`;
-const userNationality = ({ firstName, nationality }) => `${firstName} is ${nationality}`;
-
-const getUser = () => {
-  const userToReturn = {
-    firstName: "Ivan",
-    lastName: "Ivanovich",
-    nationality: "Russian"
-  };
+const mars = {
+  name: "Mars",
+  distanceFromSun: {
+    value: 227900000,
+    measurementUnit: "kilometers",
+  },
 };
 
-assert.equal(getUser(), "Hello! My name is Ivan Ivanovich"); // complete a chamada da função de getUser
-assert.equal(getUser(), "Ivan is Russian"); // complete a chamada da função de getUser
-No código abaixo você tem a função getUser modificada, que agora funciona de modo assíncrono e imprime dados de uma pessoa qualquer depois de um certo tempo. Complete a função getUser de forma que ela receba um callback para que possa realizar as operações abaixo sobre a pessoa.
-Copiar
-const userFullName = ({ firstName, lastName }) => `Hello! My name is ${firstName} ${lastName}`;
-const userNationality = ({ firstName, nationality }) => `${firstName} is ${nationality}`;
-
-const delay = (maxMilliseconds = 5000) => Math.floor(Math.random() * maxMilliseconds);
-
-const getUser = () => {
-  setTimeout(() => {
-    const user = {
-      firstName: "Ivan",
-      lastName: "Ivanovich",
-      nationality: "Russian"
-    };
-    console.log(user);
-  }, delay());
+const venus = {
+  name: "Venus",
+  distanceFromSun: {
+    value: 108200000,
+    measurementUnit: "kilometers",
+  },
 };
 
-getUser(userFullName); // deve imprimir "Hello! My name is Ivan Ivanovich" depois de um certo tempo
-getUser(userNationality); // deve imprimir "Ivan is Russian" depois de um certo tempo
+const jupiter = {
+  name: "Jupiter",
+  distanceFromSun: {
+    value: 778500000,
+    measurementUnit: "kilometers",
+  },
+};
+
+console.log(planetDistanceFromSun(mars)); // A
+console.log(planetDistanceFromSun(venus)); // B
+console.log(planetDistanceFromSun(jupiter)); // C
+```
+~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_9/exercises/9_1/exercise_1.js)~~
+
+2. - [x] observer 2
 
 ```
-~~[problem solution]()~~
+// Agora, dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
 
-2. - [x] getUser
+const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
+  `${name} is ${value} ${measurementUnit} apart from the Sun`;
 
-```
-// No código abaixo você tem a função getUser modificada, que agora funciona de modo assíncrono e imprime dados de uma pessoa qualquer depois de um certo tempo. Complete a função getUser de forma que ela receba um callback para que possa realizar as operações abaixo sobre a pessoa.
-
-const userFullName = ({ firstName, lastName }) => `Hello! My name is ${firstName} ${lastName}`;
-const userNationality = ({ firstName, nationality }) => `${firstName} is ${nationality}`;
-
-const delay = (maxMilliseconds = 5000) => Math.floor(Math.random() * maxMilliseconds);
-
-const getUser = () => {
-  setTimeout(() => {
-    const user = {
-      firstName: "Ivan",
-      lastName: "Ivanovich",
-      nationality: "Russian"
-    };
-    console.log(user);
-  }, delay());
+const mars = {
+  name: "Mars",
+  distanceFromSun: {
+    value: 227900000,
+    measurementUnit: "kilometers",
+  },
 };
 
-getUser(userFullName); // deve imprimir "Hello! My name is Ivan Ivanovich" depois de um certo tempo
-getUser(userNationality); // deve imprimir "Ivan is Russian" depois de um certo tempo
+const venus = {
+  name: "Venus",
+  distanceFromSun: {
+    value: 108200000,
+    measurementUnit: "kilometers",
+  },
+};
+
+const jupiter = {
+  name: "Jupiter",
+  distanceFromSun: {
+    value: 778500000,
+    measurementUnit: "kilometers",
+  },
+};
+
+console.log(planetDistanceFromSun(mars)); // A
+setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B
+setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C
 
 ``` 
-~~[problem solution]()~~
+~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_9/exercises/9_1/exercise_2.js)~~
 
 3. - [x] setTimeout
 
@@ -105,7 +111,7 @@ const getPlanet = () => {
 getPlanet(); // imprime Marte depois de 4 segundos
 
 ```
-~~[problem solution]()~~
+~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_9/exercises/9_1/exercise_3.js)~~
 
 4. - [x] setTimeout
 
@@ -125,7 +131,7 @@ const getMarsTemperature = () => {
 sendMarsTemperature(); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
 
 ```
-~~[problem solution]()~~
+~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_9/exercises/9_1/exercise_4.js)~~
 
 5. - [x] setTimeout
 
@@ -150,7 +156,7 @@ sendMarsTemperature(temperatureInFahrenheit); // imprime "It is currently 47ºF 
 sendMarsTemperature(greet); // imprime "Hi there! Curiosity here. Right now is 53ºC at Mars", por exemplo
 
 ```
-~~[problem solution]()~~
+~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_9/exercises/9_1/exercise_5.js)~~
 
 6. - [x] setTimeout
 
@@ -179,4 +185,6 @@ sendMarsTemperature(temperatureInFahrenheit, handleError);
 // imprime "Hi there! Curiosity here. Right now is 53ºC at Mars", por exemplo, ou "Error getting temperature: Robot is busy"
 sendMarsTemperature(greet, handleError);
 ```
-~~[problem solution]()~~
+~~[problem solution](https://github.com/Marcelllombm/trybe-exercises/blob/master/bloco_9/exercises/9_1/exercise_6.js)~~
+
+# Day 9.2 JavaScript Promises
