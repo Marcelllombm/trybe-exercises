@@ -1,5 +1,5 @@
 | [day 8.1](https://github.com/Marcelllombm/trybe-exercises/tree/master/bloco_8#day-81---javascript-es6---higher-order-functions---foreach-find-some-every-sort) | JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort <br>
-| [day 8.2]() | <br>
+| [day 8.2]() | JavaScript ES6 - Higher Order Functions - map e filter <br>
 | [day 8.3]() | <br>
 | [day 8.4]() | <br>
 
@@ -780,4 +780,32 @@ assert.equal(authorUnique(), expected_result);
 #
 #
 #
-# day 8.2 -
+# day 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
+
+## Additional resources
+[Página do MDN sobre map](https://developer.cdn.mozilla.net/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+[Página do MDN sobre filter](https://developer.cdn.mozilla.net/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filtro)
+[Simplify your JavaScript – Use .map(), .reduce(), and .filter()](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d)
+[Video sobre .map .reduce e .filter](https://www.youtube.com/watch?v=D_MExaVe95w)
+
+
+## exercise forEach
+
+1. - [x] approved send
+
+```
+const approvedPersonList = [
+  {nome: 'Jerry Mors', email: 'jerry@example.com', nota: 51},
+  {nome: 'Marcelo Borges', email: 'marcelo@example.com', nota: 101},
+  {nome: 'Ada Lovelace', email: 'ada.lovelace@example.com', nota: 150},
+  {nome: 'Lucas maria', email: 'lucaso@example.com', nota: 0},
+  {nome: 'Mors Marcos', email: 'Mors@example.com', nota: 101},
+  {nome: 'Bruno Shelas', email: 'bruno@example.com', nota: 50},
+  {nome: 'Lovelace marte', email: 'lovelace@example.com', nota: 150},
+  {nome: 'Vigem maria', email: 'vigem@example.com', nota: 100},  
+];
+
+// create a function so that I can send an email with those who scored above 100 points in the note
+// write your solution here
+```
+~~[problem solution]()~~
