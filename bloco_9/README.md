@@ -192,3 +192,5 @@ sendMarsTemperature(greet, handleError);
 | [Projeto]() | <br>
 
 # Day 9.2 JavaScript Promises
+
+## Additional resources
