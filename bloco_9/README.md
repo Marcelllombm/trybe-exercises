@@ -4,14 +4,14 @@
 
 # Day 9.1 JavaScript Assíncrono e Callbacks
 
-[Operações assíncronas](https://scotch.io/courses/10-need-to-know-javascript-concepts/callbacks-promises-and-async)
-[Callbacks - artigo](https://medium.com/totvsdevelopers/entendendo-fun%C3%A7%C3%B5es-callback-em-javascript-7b500dc7fa22)
-[setTimeout](https://www.w3schools.com/jsref/met_win_settimeout.asp)
+| [Operações assíncronas](https://scotch.io/courses/10-need-to-know-javascript-concepts/callbacks-promises-and-async) |  
+[Callbacks - artigo](https://medium.com/totvsdevelopers/ entendendo-fun%C3%A7%C3%B5es-callback-em-javascript-7b500dc7fa22) |  
+[setTimeout](https://www.w3schools.com/jsref/met_win_settimeout.asp) |
 
 ## Additional resources
-[Marie Chatfield — What is asynchronous code execution?](http://mariechatfield.com/tutorials/explanations/asynchronous-code.html)
-[Medium - JavaScript: What the heck is a Callback?](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced?gi=fca5d5153b70)
-[MDN - Callback function](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
+| [Marie Chatfield — What is asynchronous code execution?](http://mariechatfield.com/tutorials/explanations/asynchronous-code.html) |
+[Medium - JavaScript: What the heck is a Callback?](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced?gi=fca5d5153b70) |
+[MDN - Callback function](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function) |
 
 ### exercise
 
@@ -192,3 +192,9 @@ sendMarsTemperature(greet, handleError);
 | [Projeto]() | <br>
 
 # Day 9.2 JavaScript Promises
+ 
+ | [APIs](https://medium.com/@perrysetgo/what-exactly-is-an-api-69f36968a41f) | ()[]
+ 
+## Additional resources
+
+ | [Async JavaScript: From Callbacks, to Promises, to Async/Await](https://ui.dev/async-javascript-from-callbacks-to-promises-to-async-await/) | [A simple guide to promises](https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a) | [Asynchronous JavaScript: From Callback Hell to Async and Await](https://www.toptal.com/javascript/asynchronous-javascript-async-await-tutorial) | [The Evolution of Async JavaScript: From Callbacks, to Promises, to Async/Await](https://www.freecodecamp.org/news/the-evolution-of-async-javascript-from-callbacks-to-promises-to-async-await-e73b047f2f40/) | [An Overview of JavaScript Promises](https://www.sitepoint.com/overview-javascript-promises/) | [fetch() - Working With Data & APIs in JavaScript](https://www.youtube.com/watch?v=tc8DU14qX6I) | 
