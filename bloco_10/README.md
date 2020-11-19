@@ -76,4 +76,24 @@ it('should return "II" if converToRoman is called using 2',() => {
 
 
 ```
+toBe <br>
+toThrow <br>
+toEqual <br>
+toBeFalsy <br>
+toBeDefined <br>
+toBeTruthy
 
+# Jest - Testes Assíncronos
+
+### Testando códigos assíncronos
+| [Leia esse artigo ](https://deltice.github.io/jest/docs/pt-BR/asynchronous.html#content)<br> |
+| [videos](https://www.youtube.com/watch?v=Y4PHrT6Cc_A) |
+
+## Additional resources
+| (Jest - Testing Asynchronous Code - Video)[https://www.youtube.com/watch?v=Y4PHrT6Cc_A] |<br>
+| (Testing Asynchronous Code)[https://jestjs.io/docs/en/asynchronous] | <br>
+| (An Async Example)[https://jestjs.io/docs/en/tutorial-async] | <br>
+| (Setup and Teardown)[https://jestjs.io/docs/en/setup-teardown] | <br>
+| (Jest - Setup and Teardown - Video)[https://www.youtube.com/watch?v=wWx9uZa-Wnk] | <br>
+
+toHaveLength
