@@ -6,7 +6,7 @@ class Father extends Component {
     return (
       <div>
         <h3>Eu sou o Pai</h3>
-        <Daugther />
+        <Daugther money={this.props.money} spendMoney={this.props.spendMoney}/>
       </div>
     )
   }

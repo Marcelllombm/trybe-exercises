@@ -6,7 +6,7 @@ import Father from './Father'
     return (
       <div>
         <h2>Eu sou a vó</h2>
-        <Father />
+        <Father  money={this.props.money} spendMoney={this.props.spendMoney} />
       </div>
     )
   }
