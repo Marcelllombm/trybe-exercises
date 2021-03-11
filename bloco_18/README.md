@@ -5,9 +5,10 @@
 | [day 18.03 React Hooks - useEffect e Hooks customizados ]() | <br>
 | [Projeto - StarWars Datatable com Context API e Hooks]() | <br>
 
-## Bloco 18.01 - Context API e React Hooks
+#
+# Bloco 18.01 - Context API e React Hooks
 
-### Recursos adicionais (opcional) 18.1
+## Recursos adicionais (opcional) 18.1
  | [React Context & Hooks Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI)<br>
  | [Documentação oficial do React sobre Context API](https://reactjs.org/docs/context.html)| <br>
  | [Entendendo a Context API do React: criando um componente de loading](https://medium.com/reactbrasil/entendendo-a-context-api-do-react-criando-um-componente-de-loading-a84f84007dc7)| <br>
@@ -22,10 +23,10 @@ Você já aprendeu os principais conceitos que envolvem uma aplicação React: c
 Mas há mais. React possui vários recursos avançados. Não é estritamente necessário conhecê-los, mas eles podem ajudar a tornar suas aplicações mais simples, concisas e eficientes. Em alguns casos, é possível até mesmo eliminar a necessidade de utilizar uma biblioteca externa, como o Redux, para adereçar certos problemas.
 
 A Context API é um recurso do React que permite compartilhar estado entre diversos componentes em uma árvore de componentes sem a necessidade de se passar props e callbacks manualmente entre eles ou de utilizar uma ferramenta específica para isso.
- 
-## Bloco 18.02 - React Hooks - useState e useContext
+#
+# Bloco 18.02 - React Hooks - useState e useContext
 
-### Recursos adicionais (opcional) 18.2
+## Recursos adicionais (opcional) 18.2
  | [React Hooks Introduction, by Renan Lopes](https://www.youtube.com/watch?v=0pxd1DtockM)<br>
  | [React Hooks useContext, by Renan Lopes](https://www.youtube.com/watch?v=dbU-ZwDOCaE)| <br>
  | [From Class Components to Function Components](https://www.robinwieruch.de/react-hooks-migration)| <br>
@@ -38,3 +39,15 @@ React Hooks são uma das mais modernas formas de se trabalhar lógicas complexas
 O useState é o hook mais comum e ele permite que você utilize o state e outros recursos do React sem escrever uma classe. 
 
 O useContext é o hook que vai te ajudar a trabalhar com a Context API . Ele funciona como um Consumer , mas de uma forma muito menos complexa e que torna seu código bem mais legível!
+
+## Instruções para realização dos exercícios
+
+1. - [x] Exercício 1 : Refatore o exercicio do repositório exercise-react-hooks-refactoring , substituindo toda a lógica de classes para a lógica de React Hooks , deixando todos os componentes funcionais. Lembre-se de acessar a branch exercise-one , a estrutura da aplicação estará pronta para ser refatorada.
+
+2. - [x] Exercício 2 : Refatore o exercício do repositório exercise-react-hooks-refactoring , como fez no exercício anterior, substitua toda a lógica de classes para a lógica de React Hooks , deixando todos os componentes funcionais. Lembre-se de acessar a branch exercise-two , a estrutura da aplicação estará pronta para ser refatorada.
+
+Bônus
+
+3. - [x] Exercício 3 : Refatore o exercício do repositório exercise-react-hooks-refactoring , também substituindo toda a lógica de classes para a lógica de React Hooks , deixando todos os componentes funcionais. Aproveite que ele possui testes e veja como é prático refatorar uma aplicação que já foi testada! Lembre-se de acessar a branch exercise-three , a estrutura da aplicação estará pronta para ser utilizada.
+
+## [Repositório](https://github.com/tryber/exercise-react-hooks-refactoring)
